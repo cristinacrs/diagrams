@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-08T22:05:59.338Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="JUzp0f44-Xx1o2SGhnc2" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-09T03:14:40.345Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="cAGFe1MsyVOiRpWpNPIK" version="15.9.4" type="github">
   <diagram id="QcaPB6LnQUTitkFD0ahE" name="Page-1">
-    <mxGraphModel dx="1186" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,7 +96,7 @@
             <mxRectangle x="520" y="250" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jw_hAJAAaO-pH3MRC7mS-87" value="id&#xa;type" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="jw_hAJAAaO-pH3MRC7mS-86" vertex="1">
+        <mxCell id="jw_hAJAAaO-pH3MRC7mS-87" value="id&#xa;type&#xa;name&#xa;date" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="jw_hAJAAaO-pH3MRC7mS-86" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="jw_hAJAAaO-pH3MRC7mS-89" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="jw_hAJAAaO-pH3MRC7mS-79" target="jw_hAJAAaO-pH3MRC7mS-84" edge="1">
@@ -140,12 +140,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jw_hAJAAaO-pH3MRC7mS-97" value="record" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
-          <mxGeometry x="520" y="610" width="180" height="130" as="geometry">
+          <mxGeometry x="520" y="610" width="180" height="150" as="geometry">
             <mxRectangle x="520" y="250" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jw_hAJAAaO-pH3MRC7mS-98" value="id&#xa;id_report&#xa;key&#xa;name&#xa;description&#xa;date" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="jw_hAJAAaO-pH3MRC7mS-97" vertex="1">
-          <mxGeometry y="30" width="180" height="100" as="geometry" />
+        <mxCell id="jw_hAJAAaO-pH3MRC7mS-98" value="id&#xa;id_report&#xa;id_indicador&#xa;key&#xa;name&#xa;description&#xa;date" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="jw_hAJAAaO-pH3MRC7mS-97" vertex="1">
+          <mxGeometry y="30" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="jw_hAJAAaO-pH3MRC7mS-99" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jw_hAJAAaO-pH3MRC7mS-95" target="jw_hAJAAaO-pH3MRC7mS-98" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
